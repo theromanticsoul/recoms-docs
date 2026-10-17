@@ -4,7 +4,7 @@ instances:
   - url: recoms.docs.buildwithfern.com # update this to {yourorg}.docs.buildwithfern.com
     # custom-domain: plantstore.dev # specify your custom domain when you are ready to go live
 
-title: Fern Docs Starter
+title: "Recoms Docs"
 
 layout:
   searchbar-placement: header
@@ -72,26 +72,30 @@ navbar-links:
     url: https://dashboard.buildwithfern.com
   - type: github
     value: https://github.com/fern-api/fern
-      
+
 colors:
   accent-primary:
-    dark: "#70E155"
-    light: "#008700"
+    dark: "#016630"
+    light: "#016630"
   background:
-    dark: "#111113"
-    light: "#FFFFFF"
+    dark: "#0a0a0a"
+    light: "#f5f5f5"
+  border:
+    light: "#eaeaea"
+    dark: "#252525"
+  header-background:
+    light: "#ffffff"
+    dark: "#171717"
+  sidebar-background:
+    light: "#ffffff"
+    dark: "#171717"
+  card-background:
+    light: "#ffffff"
+    dark: "#171717"
 
 theme:
   page-actions: toolbar
   footer-nav: minimal
-
-logo:
-  dark: docs/assets/logo-dark.svg
-  light: docs/assets/logo.svg
-  height: 20
-  href: https://buildwithfern.com
-
-favicon: docs/assets/favicon.svg
 
 css: styles.css
 
